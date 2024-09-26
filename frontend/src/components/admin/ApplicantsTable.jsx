@@ -15,7 +15,7 @@ const ApplicantsTable = () => {
         console.log('called');
         try {
             axios.defaults.withCredentials = true;
-            const res = await axios.post(`https://jobportal-shxe.onrender.com/api/v1/application/status/${id}/update`, { status });
+            const res = await axios.post(`https://jobportal-s0rf.onrender.com/api/v1/application/status/${id}/update`, { status });
             console.log(res);
             if (res.data.success) {
                 toast.success(res.data.message);

@@ -41,7 +41,7 @@ const PostJob = () => {
         e.preventDefault();
         try {
             setLoading(true);
-            const res = await axios.post(`https://jobportal-shxe.onrender.com/api/v1/job/post`, input,{
+            const res = await axios.post(`https://jobportal-s0rf.onrender.com/api/v1/job/post`, input,{
                 headers:{
                     'Content-Type':'application/json'
                 },

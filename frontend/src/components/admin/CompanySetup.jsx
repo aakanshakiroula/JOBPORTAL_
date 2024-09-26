@@ -45,7 +45,7 @@ const CompanySetup = () => {
         }
         try {
             setLoading(true);
-            const res = await axios.put(`https://jobportal-shxe.onrender.com/api/v1/company/update/${params.id}`, formData, {
+            const res = await axios.put(`https://jobportal-s0rf.onrender.com/api/v1/company/update/${params.id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },

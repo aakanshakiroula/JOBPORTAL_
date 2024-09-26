@@ -45,7 +45,7 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
         }
         try {
             setLoading(true);
-            const res = await axios.post(`https://jobportal-shxe.onrender.com/api/user/profile/update`, formData, {
+            const res = await axios.post(`https://jobportal-s0rf.onrender.com/api/user/profile/update`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },

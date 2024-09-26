@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobportal-shxe.onrender.com',
+    origin:'https://jobportal-s0rf.onrender.com',
     credentials:true
 }
 

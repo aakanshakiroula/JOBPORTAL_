@@ -45,7 +45,7 @@ const Signup = () => {
 
         try {
             dispatch(setLoading(true));
-            const res = await axios.post(`https://jobportal-shxe.onrender.com/api/user/register`, formData, {
+            const res = await axios.post(`https://jobportal-s0rf.onrender.com/api/user/register`, formData, {
                 headers: { 'Content-Type': "multipart/form-data" },
                 withCredentials: true,
             });
